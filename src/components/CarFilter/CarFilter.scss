@@ -1,0 +1,38 @@
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.bt {
+  width: 44px;
+  height: 44px;
+  border: none;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(53, 53, 53, 0.1);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #fff !important;
+}
+
+.btn-2 {
+  background: #a162f7;
+}
+
+.heart {
+  margin-left: 400px;
+}
+
+.heart img {
+  width: 50px;
+}
+
+.heart h2 {
+  margin-bottom: 0 !important;
+  font-size: 50px;
+}

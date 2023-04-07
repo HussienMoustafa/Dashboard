@@ -1,0 +1,71 @@
+.container {
+  background-color: #f5f5f5;
+}
+
+.booking {
+  padding-left: 40px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .side-bar {
+    width: 100%;
+    position: static;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .c button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search {
+    margin-right: 5px;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .car-card {
+    margin-bottom: 50px;
+  }
+
+  .card {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1076px) {
+  .main-content {
+    margin-left: 200px;
+  }
+
+  .car-card {
+    margin-bottom: 20px;
+  }
+
+  .card {
+    width: 225px;
+  }
+  .card h5 {
+    font-size: 13px;
+  }
+  .card p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1076px) and (max-width: 1300px) {
+  .card {
+    width: 250px;
+  }
+  .card h5 {
+    font-size: 16px;
+  }
+  .card p {
+    font-size: 13px;
+  }
+}

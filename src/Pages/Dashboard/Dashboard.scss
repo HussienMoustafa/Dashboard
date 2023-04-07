@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px) {
+  .side-bar {
+    width: 100%;
+    position: static;
+    margin-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .c button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search {
+    margin-right: 5px;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  /* .main-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  } */
+
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .cards {
+    width: 48%;
+  }
+
+  /* .cars-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+  } */
+
+  .cars-cards {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 48%;
+    /* margin-bottom: 15px; */
+  }
+
+  .car-name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .cars-cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 47%;
+    /* margin-bottom: 15px; */
+  }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1259px) {
+  .main-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .cards {
+    width: 30%;
+  }
+
+  .cars-cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 30%;
+    /* margin-bottom: 15px; */
+  }
+}

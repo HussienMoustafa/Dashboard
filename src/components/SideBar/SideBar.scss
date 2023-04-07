@@ -1,0 +1,36 @@
+.side-bar {
+  width: 260px;
+  // width: 500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* bottom: 0; */
+  z-index: 1;
+  padding-left: 15px;
+  // padding-right: 50px;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.c button:hover {
+  background-color: #a162f7;
+  border-radius: 6px;
+  color: #fff;
+}
+.c {
+  height: calc(100vh - 130px);
+}
+
+.c button {
+  width: 174px;
+  height: 34px;
+  padding: 7px 8px;
+}
